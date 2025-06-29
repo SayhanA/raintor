@@ -1,29 +1,27 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'Sporting Grotesque';
-  src: url('/fonts/SportingGrotesque-Regular.otf') format('opentype');
+  font-family: "Sporting Grotesque";
+  src: url("/fonts/SportingGrotesque-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Bw Gradual DEMO';
-  src: url('/fonts/BwGradualDEMO-Regular.otf') format('opentype');
+  font-family: "Bw Gradual DEMO";
+  src: url("/fonts/BwGradualDEMO-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-
 :root {
-  --font-sporting: 'Sporting Grotesque', sans-serif;
-  --font-bwgradual: 'Bw Gradual DEMO', sans-serif;
+  --font-sporting: "Sporting Grotesque", sans-serif;
+  --font-bwgradual: "Bw Gradual DEMO", sans-serif;
   --background: #ffffff;
   --foreground: #171717;
 }
-
 
 @theme inline {
   --color-background: var(--background);
@@ -52,3 +50,13 @@ body {
 .bwgradual {
   font-family: var(--font-bwgradual);
 }
+
+.radientBg {
+  background: radial-gradient(
+    495.49% 399.77% at 51.46% 164.03%,
+    #ccff02 22.4%,
+    rgba(89, 255, 205, 0) 65.1%,
+    rgba(22, 22, 22, 0) 100%
+  );
+}
+/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */

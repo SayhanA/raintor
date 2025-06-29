@@ -73,14 +73,14 @@ const Skills = () => {
                     size="icon"
                     className="bg-transparent border-white text-white hover:bg-white hover:text-black rounded-full w-[60px] h-[60px]"
                   >
-                    <ArrowLeft className="w-5 h-5" />
+                    <ArrowLeft className="w-5 h-5 hover:text-black" />
                   </Button>
                   <Button
                     variant="outline"
                     size="icon"
                     className="bg-transparent border-white text-white hover:bg-white hover:text-black rounded-full w-[60px] h-[60px]"
                   >
-                    <ArrowRight className="w-9 h-9" strokeColor="white" />
+                    <ArrowRight className="w-9 h-9 hover:text-black" />
                   </Button>
                 </div>
               </div>

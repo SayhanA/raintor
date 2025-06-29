@@ -11,9 +11,9 @@ const ArrowLeft = () => {
     >
       <path
         d="M37 12H1M1 12C4.94286 11.2727 12.8286 7.85455 12.8286 0M1 12C4.94286 12.7273 12.8286 16.1455 12.8286 24"
-        stroke="white"
+        stroke="currentColor"
         strokeWidth="2"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
